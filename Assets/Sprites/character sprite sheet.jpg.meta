@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: character sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 822.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e05112953ed3194bb02bfde734d02de
+      internalID: 1610360522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 822.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b59991a86e580d4691b6d74df7d4d6a
+      internalID: 776476750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 822.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa6708546b3aee4ba4ffa772554dcc9
+      internalID: -861513751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 822.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901af4c06da69854e9a82d6107b971ea
+      internalID: 1953740789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 822.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22565e1ba2b866499238ee748bdf6b6
+      internalID: -1598803058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8591906ad28e3c24ebae0c545833edc0
+      internalID: -1819422298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 548.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432dba2445c8c784698c470564309766
+      internalID: 773615656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 548.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7acaac3ed455f4faf3a86455c26872
+      internalID: -2139732954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 548.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3118bfbd526184dabbfa542d5b4115
+      internalID: -1742195584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 548.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f971f9aa35da77149baa9670e20eeca8
+      internalID: -1127203189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24136798ea96cd644bc8e850edebbf9e
+      internalID: 1555385422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 274.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36807cabc9831f49b4f3352d6e13eaf
+      internalID: -528794688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 274.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81e7bfc35b3d1746a85555c3835a623
+      internalID: 1779819352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 274.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5c722393d2e1d4a9b1c723083f7e2c
+      internalID: -663269494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 274.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894f0dd0421b49a47a3fe52668b604b6
+      internalID: -1369496631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb90589cc6bd304baab1616dfd930ef
+      internalID: 425598021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d26549f5199aae4ebdcfa76c8a25507
+      internalID: 1829398644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dbabf73395b2a46a6dacf9d3b13c51
+      internalID: -934870575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71adb9db61cbc1b49934af5aa7e6c584
+      internalID: 498673146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0.75
+        width: 147.2
+        height: 274.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef98ef23f082f5d4d887e01fc1219e82
+      internalID: 971969508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +526,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character sprite sheet_0: 1610360522
+      character sprite sheet_1: 776476750
+      character sprite sheet_10: 1555385422
+      character sprite sheet_11: -528794688
+      character sprite sheet_12: 1779819352
+      character sprite sheet_13: -663269494
+      character sprite sheet_14: -1369496631
+      character sprite sheet_15: 425598021
+      character sprite sheet_16: 1829398644
+      character sprite sheet_17: -934870575
+      character sprite sheet_18: 498673146
+      character sprite sheet_19: 971969508
+      character sprite sheet_2: -861513751
+      character sprite sheet_3: 1953740789
+      character sprite sheet_4: -1598803058
+      character sprite sheet_5: -1819422298
+      character sprite sheet_6: 773615656
+      character sprite sheet_7: -2139732954
+      character sprite sheet_8: -1742195584
+      character sprite sheet_9: -1127203189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
