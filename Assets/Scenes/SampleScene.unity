@@ -134,8 +134,9 @@ GameObject:
   - component: {fileID: 25181420}
   - component: {fileID: 25181419}
   - component: {fileID: 25181418}
+  - component: {fileID: 25181421}
   m_Layer: 0
-  m_Name: Idle_0
+  m_Name: Samurai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -229,6 +230,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &25181421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25181417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dd28b98ba80a74ea0be8bb63199df0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 25181417}
+  playerSpeed: 5
+  animator: {fileID: 25181418}
+  moveX: 0
+  movement: {x: 0, y: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
