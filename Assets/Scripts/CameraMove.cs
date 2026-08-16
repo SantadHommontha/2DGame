@@ -10,18 +10,18 @@ public class CameraMove : MonoBehaviour
     [Header("Follow Settings")]
     public float smoothSpeed = 0.125f; // ความเร็วในการเคลื่อนที่ตาม (ยิ่งน้อยยิ่งสมูท/หน่วง)
     public Vector3 offset; // ระยะห่างระหว่างกล้องกับเป้าหมาย
-    public bool is2DGame = false;
+   // public bool is2DGame = false;
     private void Start()
     {
-        if (target == null) return;
+        //if (target == null) return;
 
-        offset = target.position - transform.position;
+        //offset = target.position - transform.position;
 
-        // อัปเดตตำแหน่งกล้อง
-        if (is2DGame)
-        {
-            offset.z = 0;
-        }
+        //// อัปเดตตำแหน่งกล้อง
+        //if (is2DGame)
+        //{
+        //    offset.z = 0;
+        //}
     }
 
 

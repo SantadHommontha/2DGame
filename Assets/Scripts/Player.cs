@@ -47,35 +47,42 @@ public class Player : MonoBehaviour
             localscale.x *= -1;
             transform.localScale = localscale;
         }
-
-
-
     }
 
 
     public void Animation()
     {
+
+        float move = 0f;
         if (horizontalInput != 0)
         {
+            
             if(isRun)
             {
-                animator.SetBool("IsRun", true);
+                move = 1;
             }
             else
             {
-                animator.SetBool("IsRun", false);
-                animator.SetBool("IsWalk", true);
+                move = 0.5f;
             }
-            
+
+            //if(isRun)
+            //{
+            //    animator.SetBool("IsRun", true);
+            //}
+            //else
+            //{
+            //    animator.SetBool("IsRun", false);
+            //    animator.SetBool("IsWalk", true);
+            //}      
         }
         else
         {
-           
-                animator.SetBool("IsWalk", false);
-                animator.SetBool("IsRun", false);
-            
-          
+            //animator.SetBool("IsWalk", false);
+            //animator.SetBool("IsRun", false);
+            move = 0;
         }
+        animator.SetFloat("W", move);
     }
 
 
