@@ -15,9 +15,9 @@ public class Player : MonoBehaviour
     public float rnuSpeed = 12;
     public bool isRun = false;
 
-    [Header("Jump Physics (ความหน่วง/ความไว)")]
-    public float fallMultiplier = 2.5f; // ทำให้ตอนร่วงตกลงมาเร็วขึ้น (ไม่ลอยคว้าง)
-    public float jumpMultiplier = 2f; // ทำให้กระโดดเตี้ยได้ ถ้าปล่อยปุ่มเร็ว
+    [Header("Jump Physics")]
+    public float fallMultiplier = 2.5f;
+    public float jumpMultiplier = 2f;
    
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
     public void Animation()
     {
 
+
         float move = 0f;
         if (horizontalInput != 0)
         {
@@ -81,6 +82,12 @@ public class Player : MonoBehaviour
             //animator.SetBool("IsWalk", false);
             //animator.SetBool("IsRun", false);
             move = 0;
+        }
+        if (!isGrounded)
+
+        {
+            move = 0;
+
         }
         animator.SetFloat("W", move);
     }
